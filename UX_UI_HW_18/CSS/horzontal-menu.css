@@ -1,0 +1,26 @@
+ol,
+ul {
+    list-style: none;
+}
+
+#mainMenu {
+    margin: 10px;
+    width: 900px;
+    font-family: Inter, sans-serif;
+    color: #FFD966;
+}
+
+#mainMenu li {
+    display: block;
+    width: 120px;
+    float: left;
+    margin-left: 2px;
+
+}
+
+#mainMenu a {
+    display: block;
+    padding: 3px;
+    text-decoration: none;
+    color: #FFD966;
+}
