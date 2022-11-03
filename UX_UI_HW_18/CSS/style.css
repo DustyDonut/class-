@@ -1,3 +1,72 @@
-body{
+body {
+  background-image: url(/images/skillsets_background.png);
+  background-repeat: no-repeat;
   background-color: #203944;
+}
+
+.logo {
+  display: flex;
+  height: 120px;
+  padding-left: 60px;
+  padding-top: 16px;
+}
+
+nav {
+  display: flex;
+}
+
+a {
+  margin-right: 45px;
+  flex-direction: row-reverse;
+}
+
+.nav-links {
+  display: flex;
+  margin-top: 8px;
+  margin-left: 90px;
+  margin-right: 90px;
+  justify-content: space-around;
+  font-family: 'Inter', sans-serif;
+  color: #FFD966
+}
+
+.column {
+  display: flex;
+  margin-top: 160px;
+  float: left;
+  width: 33.33%;
+}
+
+h1 {
+  display: flex;
+  padding-top: 2px;
+  padding-left: 200px;
+  font-family: 'Inter', sans-serif;
+}
+
+h3 {
+  display: flex;
+  padding-top: 0px;
+  font-family: 'Inter', sans-serif;
+  font-size:x-large ;
+  color: #FFD966
+}
+.row:after {
+  content: “”;
+  display: table;
+  clear: both;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  font-family: 'Inter', sans-serif;
+  font-size:larger;
+  color: #FFD966;
+  padding: 5px;
+}
+
+h1 {
+  color: #FFD966
 }
