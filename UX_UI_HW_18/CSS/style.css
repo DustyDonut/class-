@@ -70,3 +70,33 @@ li {
 h1 {
   color: #FFD966
 }
+
+@media only screen and (min-width:1290px) {
+  body {
+    background-image: url(/images/skillsets_background.png);
+    background-repeat: repeat;
+    background-color: #203944;
+  }
+  header {
+    padding: 0px 10%;
+    margin-top:150px;
+  }
+  nav {
+    display: grid;
+    grid-template-columns: 1fr 252px;
+    grid-template-rows: 1fr 28px 1fr;
+    padding: 0px;
+    margin:0px;
+  }
+  .column {
+    display: grid;
+    grid-template-columns: 1fr 252px;
+    grid-template-rows: 1fr 28px 1fr;
+    padding: 0px;
+    margin:0px;
+}
+h1 {
+  display: grid;
+  align-content:flex-start
+}
+}
