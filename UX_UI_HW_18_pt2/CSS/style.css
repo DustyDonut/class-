@@ -20,7 +20,8 @@ a {
 
 .nav-links {
   display: flex;
-  margin-top: 8px;
+  width: 800px;
+  margin-top: 60px;
   margin-left: 90px;
   margin-right: 90px;
   justify-content: space-around;
@@ -30,6 +31,7 @@ a {
 
 h3 {
   margin-top: 90px;
+  margin-bottom: 1px;
   margin-left: 120px;
   font-family: 'Inter', sans-serif;
   font-size: smaller;
@@ -42,7 +44,7 @@ header {
   margin-left: 120px;
   padding-bottom: 0%;
   font-family: 'Inter', sans-serif;
-  font-size: xx-large;
+  font-size: 40px;
   font-weight: 900;
   color: #FFD966;
 }
@@ -65,7 +67,7 @@ header {
 .child2 {
   width: 50%;
   height: 50vh;
-  margin-left: 1%;
+  margin-left: 0%;
   margin-top: 40px ;
   color: #FFD966;
 }
@@ -86,17 +88,18 @@ h1 {
 
 .subnav {
   padding:0%
-  height: 20%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
 }
 
 .subnav-links {
-  margin-left: 120px;
+  margin-left: 132px;
   height: 100px;
   font-family: 'Inter', sans-serif;
-  font-size:medium;
+  font-weight:500;
   color: #FFD966;
 
+}
+u{
+  padding-left: 8px;
+  padding-right: 50px;
+  justify-content: space-around;
 }
