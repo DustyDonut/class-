@@ -1,9 +1,10 @@
-body,html {
+body,
+html {
     background-color: #FFD966;
 }
 
 section {
-    margin-left: 80px;
+    margin-left: 20px;
     font-family: Inter, sans-serif;
     font-size: 26px;
     text-align: left;

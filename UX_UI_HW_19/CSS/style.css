@@ -65,7 +65,7 @@ h1 {
 }
 
 .info {
-  opacity: 0;
+  opacity: 0%;
   display: flex;
   justify-content: space-between;
   list-style-type: none;

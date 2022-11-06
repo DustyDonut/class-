@@ -1,6 +1,8 @@
 
-$(".subhead").hover(function () {
-    $(".info").css("opacity", "100");
-}, function () {
-    $(".info").css("opacity", "0");
-});
+const opensesame = ()=>{
+    $(".info").css("opacity", "100%"); 
+}
+
+
+$(".subhead").addEventListener("click", opensesame);
+
