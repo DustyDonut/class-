@@ -1,6 +1,6 @@
-body,
-html {
-    background-color: #FFD966;
+
+body{
+    background-color: #203944;
 }
 
 section {
@@ -13,6 +13,4 @@ section {
 a {
     padding-top: 10px;
     color: #FFD966;
-    text-align: left;
-    font-size: 20px;
 }
