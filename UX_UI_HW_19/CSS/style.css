@@ -51,7 +51,7 @@ h1 {
   font-size: 50px;
 }
 
-h3 {
+.subhead {
   display: flex;
   padding-top: 0px;
   font-family: 'Inter', sans-serif;
@@ -64,8 +64,8 @@ h3 {
   clear: both;
 }
 
-li {
-  opacity: 0%;
+.info {
+  opacity: 0;
   display: flex;
   justify-content: space-between;
   list-style-type: none;
