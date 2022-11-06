@@ -1,16 +1,3 @@
-
-body{
-    background-color: #203944;
-}
-
-section {
-    margin-left: 20px;
-    font-family: Inter, sans-serif;
-    font-size: 26px;
-    text-align: left;
-}
-
-a {
-    padding-top: 10px;
-    color: #FFD966;
+body {
+    background-color: #FFD966;
 }
