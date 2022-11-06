@@ -1,11 +1,8 @@
 
 console.log("Your index.js file is loaded correctly!");
 
-$(function () {
-    $("subhead").mouseover(function () {
-        $("skills").css("opacity", "100");
-    });
-    $("subhead").mouseout(function () {
-        $("skills").css("opacity", "0");
-    });
-});
+$( "h3" ).hover(
+$( h3 ).mouseenter( handlerIn ).mouseleave( handlerOut );
+function () {
+    $("ul li").css("opacity", "100");
+}
