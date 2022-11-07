@@ -1,8 +1,9 @@
 
-const opensesame = ()=>{
-    $(".info").css("opacity", "100%"); 
-}
+const el = document.getElementsByClassName('skills');
 
+const info = document.getElementsByClassName('info');
 
-$(".subhead").addEventListener("click", opensesame);
+el.addEventListener('mouseover', function handleMouseOver() {
+    info.style.display = 'block';
 
+});
