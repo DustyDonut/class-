@@ -109,7 +109,7 @@ h1 {
 }
 
 @media only screen and (max-width:1290px) {
-  body {
+  .section {
     background-image: url(./images/skillsets_background.png);
     background-repeat: repeat;
     background-color: #203944;
