@@ -1,63 +1,60 @@
 body {
-  background-image: url(./images/skillsets_background.png);
-  background-repeat: no-repeat;
+  background-image: url(../images/skillsets_background.png);
+  background-repeat: repeat;
   background-color: #203944;
 }
 
 .logo {
   display: flex;
   height: 120px;
-  width: 150px;
   padding-left: 60px;
-  padding-top: 18px;
+  padding-top: 16px;
 }
 
 nav {
   display: flex;
-  height: 200px;
 }
 
 a {
-  display: flex;
-  width: 120px;
-  margin-right: 10px;
+  margin-right: 45px;
   flex-direction: row-reverse;
-  padding: 60px
 }
 
 .nav-links {
   display: flex;
-  margin-top: 8px;
-  margin-left: 8px;
-  margin-right: 30px;
+  width: 900px;
+  margin-top: 40px;
+  margin-left: 80px;
+  margin-right: 90px;
   justify-content: space-around;
   font-family: 'Inter', sans-serif;
-  font-weight: 200;
-  font-size: 20px;
+  font-size: 22px;
   color: #FFD966
+}
+
+.row {
+  width: 100%;
 }
 
 .column {
   display: flex;
-  margin-top: 140px;
+  margin-top: 160px;
   float: left;
   width: 33.33%;
 }
 
 h1 {
   display: flex;
-  padding-top: 0px;
+  padding-top: 10px;
   padding-left: 200px;
   font-family: 'Inter', sans-serif;
-  font-size: 50px;
 }
 
-.subhead {
+h3 {
   display: flex;
   padding-top: 0px;
   font-family: 'Inter', sans-serif;
-  font-size: 32px;
-  ;
+  font-size: x-large;
   color: #FFD966
 }
 
@@ -67,8 +64,7 @@ h1 {
   clear: both;
 }
 
-.info {
-  opacity: 0%;
+li {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
@@ -76,7 +72,6 @@ h1 {
   font-size: larger;
   color: #FFD966;
   padding: 5px;
-  transition: all ease 0.5s;
 }
 
 h1 {
@@ -85,7 +80,7 @@ h1 {
 
 @media only screen and (min-width:1290px) {
   body {
-    background-image: url(./images/skillsets_background.png);
+    background-image: url(/images/skillsets_background.png);
     background-repeat: repeat;
     background-color: #203944;
   }
@@ -118,8 +113,8 @@ h1 {
 }
 
 @media only screen and (max-width:1290px) {
-  body {
-    background-image: url(/images/skillsets_background.png);
+  .section {
+    background-image: url(../images/skillsets_background.png);
     background-repeat: repeat;
     background-color: #203944;
   }
@@ -137,17 +132,10 @@ h1 {
     margin: 0px;
   }
 
-  .column1 {
-    display: hidden;
+  .column {
     display: grid;
     grid-template-columns: 1fr 252px;
     grid-template-rows: 1fr 28px 1fr;
     padding: 0px;
     margin: 0px;
   }
-
-  h1 {
-    display: grid;
-    align-content: flex-start
-  }
-}
