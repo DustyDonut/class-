@@ -32,6 +32,10 @@ a {
   color: #FFD966
 }
 
+.row {
+  width:100%;
+}
+
 .column {
   display: flex;
   margin-top: 160px;
