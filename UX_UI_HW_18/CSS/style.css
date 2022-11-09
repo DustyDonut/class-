@@ -1,7 +1,9 @@
-body {
-  background-image: url(../images/skillsets_background.png);
-  background-repeat: repeat;
-  background-color: #203944;
+html {
+  background: url(/images/skillsets_background.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .logo {
@@ -40,7 +42,7 @@ a {
   display: flex;
   margin-top: 160px;
   float: left;
-  width: 33.33%;
+  width: 33%;
 }
 
 h1 {
@@ -52,9 +54,9 @@ h1 {
 
 h3 {
   display: flex;
-  padding-top: 0px;
+  padding-top: 12px;
   font-family: 'Inter', sans-serif;
-  font-size: x-large;
+  font-size: 32px;
   color: #FFD966
 }
 
@@ -62,6 +64,10 @@ h3 {
   content: “”;
   display: table;
   clear: both;
+}
+ul {
+  width: 200px;
+
 }
 
 li {
@@ -71,18 +77,23 @@ li {
   font-family: 'Inter', sans-serif;
   font-size: larger;
   color: #FFD966;
-  padding: 5px;
+  padding: 4px;
 }
 
 h1 {
-  color: #FFD966
+  color: #FFD966;
+  font-size: 48px;
+  
 }
 
 @media only screen and (min-width:1290px) {
-  body {
-    background-image: url(/images/skillsets_background.png);
-    background-repeat: repeat;
-    background-color: #203944;
+
+  html {
+    background: url(/images/skillsets_background.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 
   header {
@@ -113,10 +124,12 @@ h1 {
 }
 
 @media only screen and (max-width:1290px) {
-  .section {
-    background-image: url(../images/skillsets_background.png);
-    background-repeat: repeat;
-    background-color: #203944;
+  html {
+    background: url(/images/skillsets_background.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 
   header {
@@ -139,3 +152,4 @@ h1 {
     padding: 0px;
     margin: 0px;
   }
+}
