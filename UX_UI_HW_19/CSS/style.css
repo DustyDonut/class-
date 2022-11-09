@@ -1,5 +1,5 @@
-html { 
-  background: url(/images/skillsets_background.png) no-repeat center center fixed; 
+html {
+  background: url(/images/skillsets_background.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -42,29 +42,22 @@ a {
   display: flex;
   margin-top: 160px;
   float: left;
-  width: 33.33%;
-}
-
-ul {
-  width: 250px;
-  margin-top: 34px;
-  
+  width: 32%;
 }
 
 h1 {
   display: flex;
-  padding-left: 150px;
+  padding-top: 10px;
+  padding-left: 200px;
   font-family: 'Inter', sans-serif;
-  font-size: 50px;
 }
 
-.skills {
+h3 {
   display: flex;
-  visibility: visible;
-  padding-top: 0px;
+  padding-top: 12px;
   font-family: 'Inter', sans-serif;
-  font-size: x-large;
-  color: #FFD966;
+  font-size: 32px;
+  color: #FFD966
 }
 
 .row:after {
@@ -73,26 +66,37 @@ h1 {
   clear: both;
 }
 
-.info {
+ul {
+  width: 220px;
+
+}
+
+li {
   display: flex;
+  display: none;
+  justify-content: space-between;
   list-style-type: none;
   font-family: 'Inter', sans-serif;
   font-size: larger;
   color: #FFD966;
-  height: 50px;
-  padding-right: 100px;
+  padding: 4px;
 }
 
 h1 {
-  color: #FFD966
+  display: flex;
+  color: #FFD966;
+  font-size: 48px;
+
 }
 
 @media only screen and (min-width:1290px) {
+
   html {
-    background-image: url(/images/skillsets_background.png);
-    height: 100%;
-    background-repeat: no-repeat;
-    background-color: #203944;
+    background: url(/images/skillsets_background.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 
   header {
@@ -104,8 +108,8 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 252px;
     grid-template-rows: 1fr 28px 1fr;
-    padding-left: 20px;
-    margin: 30px;
+    padding: 0px;
+    margin: 0px;
   }
 
   .column {
@@ -120,22 +124,15 @@ h1 {
     display: grid;
     align-content: flex-start
   }
-
-  .info {
-    display: grid;
-    grid-template-columns: 1fr 252px;
-    grid-template-rows: 1fr 28px 1fr;
-    padding: 0px;
-    margin: 0px;
-  }
 }
 
 @media only screen and (max-width:1290px) {
-  body {
-    background-image: url(/images/skillsets_background.png);
-    height: 100%;
-    background-repeat: no-repeat;
-    background-color: #203944;
+  html {
+    background: url(/images/skillsets_background.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 
   header {
@@ -147,29 +144,12 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 252px;
     grid-template-rows: 1fr 28px 1fr;
-    padding-left: 20px;
-    margin: 30px;
-  }
-
-  ul {
-    display: grid;
-    grid-template-columns: 1fr 252px;
-    grid-template-rows: 1fr 28px 1fr;
     padding: 0px;
     margin: 0px;
   }
 
   .column {
     display: grid;
-    grid-template-columns: 1fr 252px;
-    grid-template-rows: 1fr 28px 1fr;
-    padding: 0px;
-    margin: 0px;
-  }
-
-  .info {
-    display: grid;
-    display: none;
     grid-template-columns: 1fr 252px;
     grid-template-rows: 1fr 28px 1fr;
     padding: 0px;
