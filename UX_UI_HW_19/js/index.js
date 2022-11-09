@@ -1,9 +1,30 @@
+function DropDown(el) {
+    this.dd = el;
+    this.initEvents();
+}
 
-const el = document.getElementsByClassName('skills');
+DropDown.prototype = {
+    initEvents: function () {
+        var obj = this;
 
-const info = document.getElementsByClassName('info');
+        obj.dd.on('hover', function (event) {
+            $(this).toggleClass('dropdown menu');
+            event.stopPropagation();
+        });
 
-el.addEventListener('mouseover', function handleMouseOver() {
-    info.style.display = 'block';
+        obj.dd.hover(function (event) {
+            if (event.type == "mouseenter") {
+                $(this).addClass('dropdown menu');
+            }
+            else { // mouseleave
+                $(this).removeClass('dropdown menu');
+            }
+        });
+    }
+}
+
+$(function () {
+    var dd = new DropDown($('.dropdown'));
+
 
 });
